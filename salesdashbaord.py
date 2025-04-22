@@ -4,7 +4,7 @@
 # In[1]:
 
 
-get_ipython().system('pip install pandas plotly')
+# get_ipython().system('pip install pandas plotly')
 
 
 # In[2]:
@@ -274,7 +274,9 @@ def update_theme(selected_theme):
 # In[127]:
 
 
-app.run(mode='inline')
+if __name__ == "__main__":
+    app.run_server(debug=True, host="0.0.0.0", port=10000)
+
 
 
 # In[ ]:
