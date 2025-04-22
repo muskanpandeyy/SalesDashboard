@@ -188,7 +188,7 @@ from dash import dcc, html
 
 
 app = dash.Dash('SalesDashboard')
-
+server = app.server 
 
 # In[122]:
 
