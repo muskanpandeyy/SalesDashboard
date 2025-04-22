@@ -21,7 +21,8 @@ pio.templates.default = "plotly_white"
 # In[3]:
 
 
-data = pd.read_csv("Sample - Superstore.csv",encoding = "latin-1")
+data = pd.read_csv("./Sample - Superstore.csv", encoding="latin-1")
+
 
 
 # In[5]:
